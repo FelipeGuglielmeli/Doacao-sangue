@@ -1,6 +1,5 @@
 // Importações necessárias para o componente.
 import React, { useState } from 'react'; // Importa o React e o Hook useState para gerenciamento de estado.
-import './styles/AddDoacao.css'; // Importa o arquivo CSS para estilização do componente.
 import axios from 'axios'; // Importa a biblioteca axios para fazer requisições HTTP.
 
 function AddDoador() {
@@ -33,7 +32,6 @@ function AddDoador() {
         <div className="container mt-5">
             <h2 className="mb-3">Adicionar Doador</h2>
             <form onSubmit={handleSubmit} className="card card-body">
-                // Campos do formulário para inserção dos dados do doador.
                 <div className="form-group">
                     <label>Nome</label>
                     <input type="text" className="form-control" value={nome} onChange={(e) => setNome(e.target.value)} placeholder="Nome" required />

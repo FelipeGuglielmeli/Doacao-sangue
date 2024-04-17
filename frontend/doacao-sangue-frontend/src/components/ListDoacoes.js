@@ -1,6 +1,5 @@
 // Importações necessárias
 import React, { useState, useEffect } from 'react';  // Importa React e seus Hooks useState e useEffect.
-import './styles/ListDoacao.css';  // Importa o arquivo de estilos CSS para estilização do componente.
 import axios from 'axios';  // Importa a biblioteca axios para fazer requisições HTTP.
 
 function ListDoacoes() {

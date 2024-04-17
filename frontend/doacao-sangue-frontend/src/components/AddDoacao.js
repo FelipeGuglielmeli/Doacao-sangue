@@ -1,7 +1,6 @@
 // Importações necessárias: React e useState para gerenciar o estado do componente,
 // o arquivo de estilos CSS para estilização e axios para fazer requisições HTTP.
 import React, { useState } from 'react';
-import './styles/AddDoador.css';
 import axios from 'axios';
 
 function AddDoacao() {

@@ -9,10 +9,10 @@ function App() {
   // A função do componente App retorna JSX, que descreve a estrutura da interface do usuário que será renderizada no navegador.
   return (
     <div className="App">
-      <h1>Sistema de Doação de Sangue</h1> // Um cabeçalho que dá título à aplicação.
-      <AddDoador /> // Componente que permite adicionar novos doadores ao sistema.
-      <AddDoacao /> // Componente que permite registrar novas doações.
-      <ListDoacoes /> // Componente que lista todas as doações registradas.
+      <h1>Sistema de Doação de Sangue</h1> 
+      <AddDoador /> 
+      <AddDoacao /> 
+      <ListDoacoes /> 
     </div>
   );
 }
