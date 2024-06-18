@@ -1,0 +1,24 @@
+# Ambiente virtual
+venv/
+*.pyc
+__pycache__/
+
+# Arquivos de configuração do ambiente
+.env
+
+# Diretórios de migração (se usar Flask-Migrate)
+migrations/
+
+# Logs
+*.log
+
+# Database local
+*.sqlite3
+
+# IDEs e editores de código
+.vscode/
+.idea/
+
+# Arquivos e diretórios específicos do sistema operacional
+.DS_Store
+Thumbs.db
