@@ -1,24 +1,26 @@
-# Ambiente virtual
+# Virtual environment
 venv/
-*.pyc
+.VSCode/
 __pycache__/
+*.pyc
+.Python
+env/
+env.bak/
+venv.bak/
 
-# Arquivos de configuração do ambiente
+# Environment variables
 .env
 
-# Diretórios de migração (se usar Flask-Migrate)
-migrations/
+# Pytest
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
 
 # Logs
+logs/
 *.log
 
-# Database local
-*.sqlite3
-
-# IDEs e editores de código
-.vscode/
-.idea/
-
-# Arquivos e diretórios específicos do sistema operacional
+# OS files
 .DS_Store
 Thumbs.db
